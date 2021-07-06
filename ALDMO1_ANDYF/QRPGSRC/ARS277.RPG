@@ -20,28 +20,4 @@
 002000001025     C           ENDFIL    TAG
 002100001025     C                     MOVE '1'       *INLR
 002200001025     C                     RETRN
-002300001025     H*
-002400210217     H*********************************************************************
-002500210512     H*      CHANGE FOR WEBINAR PROJECT EURONET         XXXX
-002600210510     H*  LOG : DEMO 004                                 BY Anita
-002700210325     H*        DEMO 003
-002800210512     H*        DEMO FOR UOBSG 001xxx IN rdi git
-002900200723     H********************************************************************
-003000001025     FMASTERL1IF  E           K        DISK
-003100001025     F            ACTGLP                            KRENAMERPGID2
-003200001025     C           *ENTRY    PLIST
-003300001025     C                     PARM           CHECK   10
-003400001025     C                     READ MASTERL1                 90
-003500200903     C                     READ MASTERL1                 90
-003600150826     C*
-003700001025     C           CHECK     IFGT 1
-003800001025     C                     GOTO ENDFIL
-003900001025     C                     ENDIF
-004000210510     C           CHECK     IFGT 2
-004100210510     C                     GOTO ENDFIL
-004200210510     C                     ENDIF
-004300200922     C*
-004400170724     C*
-004500001025     C           ENDFIL    TAG
-004600001025     C                     MOVE '1'       *INLR
-004700001025     C                     RETRN
+002300210706
