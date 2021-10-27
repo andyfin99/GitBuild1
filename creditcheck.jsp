@@ -17,7 +17,7 @@
 %>
 
 <form method="post" action="<portlet:actionURL/>">
-	Enter values for input parameters:
+	Enter values for input parameters here:
 
 		
         custnum: <INPUT value="aStringValue" name="custnum_param" type="text"><br>
