@@ -1,4 +1,7 @@
 
 [repository]
+	devenvid = 00010713
 	instance = aldmo1
+	pdid = 00023946
 	release = Retail/Online/Base(1.0)::$Online
+	releaseid = 00010187
